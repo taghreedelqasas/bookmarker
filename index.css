@@ -1,0 +1,95 @@
+:root{
+    --text-color:#212529;
+    --text-caption-font :"PT Sans Caption", sans-serif;
+}
+
+
+.bookmark{
+    background-color: #F7ECDE;
+    padding-bottom: 70px;
+}
+
+.fa-bookmark{
+    margin: 0 5px;
+   
+    
+}
+.form-label{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 600;
+}
+h1{
+    color:    #352E28;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+    position: relative;
+    display: inline-block;
+    margin: 60px 0;
+    z-index: 77;
+    
+    
+}
+h1::after{
+    content: "";
+    background-color: #FEC260;
+    left: 0 ;
+    right: 0;
+    top: 60%;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    transition: .5s;
+}
+h1:hover::after{
+ top:  20%;
+}
+h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Righteous", sans-serif;
+
+}
+.contain{
+    border-top: 2px dotted #000;
+    border-bottom: 2px dotted #000;
+    padding: 25px 0;
+
+    
+}
+
+.submit {
+    display: inline-block;
+    margin: auto;
+}
+.displayInfo {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.submit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+   font-size: 16px ;
+   padding: 5px 50px ;
+   margin: 10px 0;
+   font-family: "PT Sans Caption", sans-serif;
+
+}
+.displayInfo  h4, .displayInfo  span ,.displayInfo  button {
+ font-family: var(--text-caption-font);
+ color: var(--text-color);
+ font-weight: 700;
+ font-size: 16px;
+ margin: auto;
+}
+
